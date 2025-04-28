@@ -1,0 +1,364 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+html{
+    font-size: 10px;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden auto;
+}
+.Main{
+    height: 10rem;
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main1{
+    height: 10rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main11{
+    height: 10rem;
+    width: 36%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.Main11 img{
+    height: 7rem;
+    width: 20%;
+}
+.Main12{
+    height: 10rem;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5rem;
+}
+.Main12 a{
+    text-decoration: none;
+    color: black;
+}
+.Main13{
+    height: 10rem;
+    width: 36%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.Main13 button{
+    height: 5rem;
+    width: 40%;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 50rem;
+}
+.About{
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+.About1{
+    height: 48rem;
+    width: 90%;
+    /* border: 1px solid green; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)), url(./Fbgimg.jpg);
+    background-size: 100% 60rem;
+    
+}
+.About11{
+    height: 50rem;
+    width: 50%;
+    /* border: 1px solid green; */
+    font-size: 3rem;
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 5rem;
+    color: white;
+}
+.About11 h3{
+    font-size: 5rem;
+}
+.Work{
+    height: 40rem;
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+.Work1{
+    height: 35rem;
+    width: 90%;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Work11{
+    height: 35rem;
+    width: 50%;
+    /* border: 1px solid red; */
+    /* font-size: 3rem; */
+    padding: 2.5rem;
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.Work11 p{
+    font-size: 2rem;
+}
+.Work11 h2{
+    font-size: 4rem;
+}
+.Work12{
+    height: 35rem;
+    width: 50%;
+    /* border: 1px solid rebeccapurple; */
+    border-left: 1px solid black;
+    font-size: 2rem;
+    padding: 4rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.Work12 button{
+    height: 6rem;
+    width: 25rem;
+    border-radius: 10rem;
+    background-color: black;
+    color: white;
+}
+
+.Photo{
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Photo1{
+    height: 30rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Photo11{
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Photo22{
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1rem;    
+}
+.Photo11 h3{
+    font-size: 3.5rem;
+}
+.Photo22 img{
+    height: 10rem;
+    width: 60%;
+}
+
+
+.unlock{
+    height: 50rem;
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unlock22{
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unlock1{
+    height: 50rem;
+    width: 90%; 
+}
+.unlock2{
+    height: 2rem;
+    width: 100%;
+    font-size: 3rem;
+}
+.unlock31{
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 1rem;
+    flex-direction: column;
+    font-size: 2rem;
+     gap: 3rem;
+     line-height: 4rem;
+}
+.unlock31 img{
+    height: 30rem;
+    width: 100%;
+}
+
+.Team{
+    height: 70rem;
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 226, 226);
+    align-items: center;
+    margin-top: 3rem;
+}
+.Team1{
+    height: 10rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.Team11{
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+}  
+.Team11 p{
+    font-size: 2.5rem;
+}
+.Team11 h2{
+    font-size: 4rem;
+}
+.IMAGE{
+    height: 60rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.IMG{
+
+    width: 30%;
+    font-size: 1.8rem;
+    gap: 3rem;
+    row-gap: 2rem;
+}
+.IMG img{
+    height: 30rem;
+    width: 100%;
+}
+.IMG i{
+    font-size: 3rem;
+    width:6rem;
+}
+
+.TABLE{
+    height: 60rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+.Potential{
+    height: 30rem;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 226, 226);
+    align-items: center;
+}
+.Potential1{
+    height: 30rem;
+    width: 90%; 
+    font-size: 3rem;
+    gap: 2.6rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 5rem;
+    flex-direction: column;
+}
+.Potential1 p{
+    font-size: 2.6rem;
+}
+.Potential1 button{
+    height: 4.5rem;
+    width: 12rem;
+    font-size: 1.6rem;
+    background-color: black;
+    color: white;
+    border-radius: 4rem;
+}
+
+.Foot{
+    height: 40rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    
+}
+.Foot1{
+    height: 6rem;
+    width: 80%;
+    display: flex;
+    align-items: center; 
+}
+.Foot1 img{
+    height: 9rem;
+    width: 9rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.Foot2{
+    height:20rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 3rem;
+    
+}
